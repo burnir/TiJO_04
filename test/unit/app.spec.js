@@ -37,7 +37,7 @@ describe('app', function () {
     });
     describe('Area function', function () {
         it('should calculate area of trapezoid', function () {
-            expect(app.areaOfTrapezoid(3,5,2)).toEqual(8);
+            expect(app.areaOfTrapezoid(3,5,3)).toEqual(8);
             expect(app.areaOfTrapezoid(5,15,2)).toEqual(20);
         });
         it('should return false when a is equal or less than 0', function () {

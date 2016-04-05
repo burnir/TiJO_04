@@ -41,7 +41,7 @@ describe('app', function () {
             expect(app.areaOfTrapezoid(5,15,2)).toEqual(20);
         });
         it('should return false when a is equal or less than 0', function () {
-            expect(app.areaOfTrapezoid(0, 6, 34)).toEqual(false);
+            expect(app.areaOfTrapezoid(0, 4, 34)).toEqual(false);
             expect(app.areaOfTrapezoid(-6, 6, 3)).toEqual(false);
         });
         it('should return false when b is equal or less than 0', function () {
